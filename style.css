@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 120px;
 }
@@ -37,4 +37,28 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 20px 20px 40px grey;
+    border-radius: 10px;
+    
 
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0% 200px ;
+
+}
+.exfront{
+    border-left: 7px solid blue;
+}
+.exfull{
+    border-left: 7px solid tomato;
+}
+footer{
+    text-align: center;
+}
